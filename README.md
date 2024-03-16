@@ -3,8 +3,22 @@
     Data cleaning tasks mainly include data structuring, outlier handling, and feature extraction.
 ## File description
     Data_clean_214.py Initial structuring of the data and extraction of some of the mid-price, order-imbalance, total-volume and bid-ask-spread parameters.
+
     Data_clean_month_222.py Consolidate data by month.
+
     data_extra_314.py The outliers were processed by removing 5% of the textual outlier values while adding more features.
+    
+    tapes_clean_316.py Temporal structuring of tapes data.
+
+    data_combine.py Combining cleaned lob and tape data.
+
+    lob_cleaned This folder contains all the lobs data that has been initially cleaned.
+
+    lob_data_extra The data in this folder explores more features based on the initial cleaned data.
+
+    tapes_cleaned This folder contains all the tapes data that has been initially cleaned.
+
+    data_combine  The data in this folder contains a merge of all the data.
 ## Characteristics
     Bid_Price and Ask_Price: These two features represent the current bid and ask prices in the market. They directly reflect the immediate state of supply and demand in the market and are the basis for making any buy and sell decisions.
 
@@ -22,8 +36,13 @@
 
     Order_imbalance: Order imbalance measures the imbalance between buy and sell orders and, similar to Cumulative_Volume_Difference, it can be used to sense how well the market is accepting the current price level and the direction of potential price movement.
 
+    Weighted_Avg_Price: is the real-time trading price, where the data is supplemented using forward padding.
+
+    Trade_Volume: trade volume.
+
 ## Content Updates
     V1.0.0 Text structuring
     V1.0.1 Consolidation of data into months
     V1.0.2 More features to improve readability
+    V2.0.1 Consolidation of all cleaned data.
 
