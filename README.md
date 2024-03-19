@@ -2,23 +2,36 @@
 ## Introduction to the mandate
     Data cleaning tasks mainly include data structuring, outlier handling, and feature extraction.
 ## File description
-    Data_clean_214.py Initial structuring of the data and extraction of some of the mid-price, order-imbalance, total-volume and bid-ask-spread parameters.
+### code
+#### data_clean
+    Lobs_data_clean_214.py - Initial structuring of the data and extraction of some of the mid-price, order-imbalance, total-volume and bid-ask-spread parameters.
 
-    Data_clean_month_222.py Consolidate data by month.
+    Lobs_data_clean_month_222.py - Consolidate data by month.
 
-    data_extra_314.py The outliers were processed by removing 5% of the textual outlier values while adding more features.
+    Lobs_data_extra_314.py - The outliers were processed by removing 5% of the textual outlier values while adding more features.
     
-    tapes_clean_316.py Temporal structuring of tapes data.
+    tapes_clean_316.py - Temporal structuring of tapes data.
+#### data_combine
+    data_combine_second.py - Merge lobs and tapes data at the second level.
 
-    data_combine.py Combining cleaned lob and tape data.
+    data_combine_min.py - Merge lobs and tapes data at the minute level.
 
-    lob_cleaned This folder contains all the lobs data that has been initially cleaned.
+    data_combine_hour.py - Merge lobs and tapes data at the hour level.
 
-    lob_data_extra The data in this folder explores more features based on the initial cleaned data.
+    data_second_total.py - his part of the code combines all the data at the second level.
 
-    tapes_cleaned This folder contains all the tapes data that has been initially cleaned.
+    data_min_total.py - This part of the code combines all the data at the minute level.
 
-    data_combine  The data in this folder contains a merge of all the data.
+    data_hour_total.py - This part of the code combines all the data at the hour level.
+### data
+    lob_cleaned - The primary processing of data mainly includes text conversion, time structuring, and feature separation.
+    
+    lob_cleaned_extra - Added more features and reduced outlier data by 5%.
+
+    data_combine - All data combined in seconds, minutes, and hours.
+
+    tapes_cleaned - The data is organized at the second level.
+
 ## Characteristics
     Bid_Price and Ask_Price: These two features represent the current bid and ask prices in the market. They directly reflect the immediate state of supply and demand in the market and are the basis for making any buy and sell decisions.
 
@@ -27,8 +40,6 @@
     Market_Depth_Bid and Market_Depth_Ask: Market Depth indicates the volume of orders at a given price level, with greater depth indicating greater willingness to buy and sell at that price level. 
 
     Historical_Volatility: Historical volatility is measured by the standard deviation of past price movements and reflects the level of uncertainty and risk in market price movements.
-
-    Weighted_Avg_Bid_Price and Weighted_Avg_Ask_Price: Weighted Average Bid and Ask Prices take into account the volume of orders at each price level, providing an average price indicator that takes into account the depth of the market. These indicators can be used to identify potential buying or selling opportunities, especially when prices deviate significantly from the weighted average price.
 
     Cumulative_Volume_Difference: The Cumulative Order Volume Difference reflects the overall imbalance between buy and sell orders. This indicator can be used to predict short-term price movements, e.g. buy orders outnumbering sell orders may signal upward pressure on prices.
 
@@ -45,4 +56,5 @@
     V1.0.1 Consolidation of data into months
     V1.0.2 More features to improve readability
     V2.0.1 Consolidation of all cleaned data.
+    V2.0.2 Calculation of data at different time levels, and data merging.
 
