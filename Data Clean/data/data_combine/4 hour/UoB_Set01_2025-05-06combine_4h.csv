@@ -1,0 +1,4 @@
+DateTime_4H,Bid1_Price_mean,Bid1_Volume_sum,Ask1_Price_mean,Ask1_Volume_sum,Bid2_Price_mean,Bid2_Volume_sum,Ask2_Price_mean,Ask2_Volume_sum,Mid-Price_mean,Bid_Ask_Spread_mean,Market_Depth_Bid_sum,Market_Depth_Ask_sum,Historical_Volatility_mean,Total_volume_sum,Cumulative_Volume_Difference_sum,Total_Volume_Change_Corrected_sum,Order_imbalance_mean,Weighted_Avg_Price_Min,Weighted_Avg_Price_Max,Trade_Volume_sum,Trade_Price_Mean
+2025-05-06 04:00:00,215.76,59456.0,241.43,35366.0,208.1,60403.0,293.63,35690.0,228.59,25.67,119859.0,71056.0,10.45,190915,48803.0,1928.0,0.18,207.0,226.0,2296.0,218.53
+2025-05-06 08:00:00,211.91,654598.0,247.63,414696.0,205.54,685396.0,302.41,428874.0,229.77,35.72,1339994.0,843570.0,13.05,2183564,496424.0,-86.0,0.16,196.0,224.5,24734.0,213.12
+2025-05-06 12:00:00,204.38,650071.0,243.71,404001.0,199.21,646755.0,304.72,410387.0,224.05,39.33,1296826.0,814388.0,14.01,2111214,482438.0,590.0,0.16,192.0,215.0,23826.0,205.1
