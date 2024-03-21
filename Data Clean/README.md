@@ -47,7 +47,7 @@
 
     Order_imbalance: Order imbalance measures the imbalance between buy and sell orders and, similar to Cumulative_Volume_Difference, it can be used to sense how well the market is accepting the current price level and the direction of potential price movement.
 
-    Weighted_Avg_Price: is the real-time trading price, where the data is supplemented using forward padding.
+    Trade_Price: is the real-time trading price, where the data is supplemented using forward padding.
 
     Trade_Volume: trade volume.
 
