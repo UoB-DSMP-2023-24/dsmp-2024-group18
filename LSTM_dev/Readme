@@ -2,7 +2,7 @@
 
 
 lstm_on_min_data(midprice).ipynb: 
-
+input_size: 50 steps output: 10 steps
 Three different model structures of LSTM was tested on mid-price predictions.
 Data was separated into train(70%), val(20%) and test(10%) <- I will try to separate the data into train(JAN-April) val(may) test(June and July)
 The result shows that stacking 2 layers of LSTM yeilds the best result on validation set and test set in this case
