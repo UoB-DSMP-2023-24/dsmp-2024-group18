@@ -1,2 +1,2 @@
-,Future Buy Increase,Future Sell Decrease,Quantile Bid-Ask,Profit/Loss,Number of Transactions,Number of Buy Signals,Number of Sell Signals,Sortino Ratio,Sharpe Ratio,Max Drawdown,Calmar Ratio
-0,1.01,0.97,0.85,67739.65466264191,10685,93,56,0.7782630861736256,0.556776582258973,0.5900074743652163,0.12269591642727673
+,Future Buy Increase,Future Sell Decrease,Bid Ask Spread Threshold,Profit/Loss,Number of Transactions,Number of Buy Signals,Number of Sell Signals,Sortino Ratio,Sharpe Ratio,Max Drawdown,Calmar Ratio
+0,1.01,0.97,0.85,8301.854140684387,10685,52,52,0.8922310031244569,0.5811442548076945,0.44881640902272685,0.04637160986206141
